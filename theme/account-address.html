@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from iamosahan.com/preview/eatpure/account-address.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 20 Apr 2024 11:32:21 GMT -->
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="img/icon.png" type="image/png">
+<title>Eatpure - Online Grocery Supermarket HTML Template</title>
+
+<link rel="stylesheet" href="vender/bootstrap/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="vender/icofont/icofont.min.css">
+<link href="../../../cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-white osahan-header px-lg-0 pt-lg-2 pb-lg-0 p-3 shadow-sm">
+<div class="container px-0 px-xl-3">
+<a class="navbar-brand m-0 d-lg-block flex-shrink-0" href="index.html">
+<img src="img/logo.png" alt class="img-fluid logo-img d-none d-lg-block">
+<img src="img/icon.png" alt class="img-fluid logo-img d-lg-none">
+</a>
+<div class="border rounded-pill overflow-hidden osahan-top-search w-100 ms-5 me-4 d-none d-lg-flex">
+<a href="#" class="link-dark p-2 border-end osahan-location text-decoration-none d-flex align-items-center gap-2 text-start flex-shrink-0" data-bs-toggle="offcanvas" data-bs-target="#location" aria-controls="location">
+<i class="lni lni-map-marker text-danger fs-5"></i>
+<div class="lh-sm">
+<p class="fw-normal mb-0 small">Delivery in 16 minutes</p>
+<p class="text-muted m-0 text-truncate d-inline-block mb-0 align-bottom">H.No. 2834 Street, 784 Sector, Ludhiana, Punjab</p>
+</div>
+<i class="lni lni-chevron-down"></i>
+</a>
+<div class="input-group bg-white top-search-bar align-items-center">
+<input type="text" class="form-control bg-transparent border-0 rounded-0" placeholder="Search items" aria-label="Search items">
+<a href="#" class="btn btn-danger rounded-pill me-1"><i class="icofont-search me-1"></i> Search</a>
+</div>
+</div>
+<ul class="list-inline d-flex align-items-center ms-auto m-0 flex-shrink-0">
+<li class="list-inline-item m-0">
+<div class="dropdown">
+<a class="link-dark text-decoration-none d-flex align-items-center gap-2 text-start px-lg-4" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+<i class="lni lni-user text-dark fs-5 bg-light border rounded-pill p-2"></i>
+<div class="lh-sm d-none d-lg-block">
+<small class="text-muted text-truncate d-inline-block mb-0 align-bottom small">Account</small>
+<h6 class="mb-0 fw-normal">+91 1234 567890</h6>
+</div>
+<i class="lni lni-chevron-down"></i>
+</a>
+<ul class="dropdown-menu osahan-dropdown dropdown-menu-end shadow-sm overflow-hidden mt-0 p-0 my-account-dropdown">
+<li class="p-3 bg-light mb-2">
+<h6 class="fw-bold m-0">David</h6>
+<p class="text-muted small m-0"><a href="https://iamosahan.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="107568717d607c7550777d71797c3e737f7d">[email&#160;protected]</a></p>
+</li>
+<li><a class="dropdown-item" href="my-account.html">My order</a></li>
+<li><a class="dropdown-item" href="my-account.html">Saved Address</a></li>
+<li><a class="dropdown-item d-flex align-items-center justify-content-between" href="my-account.html">
+<span class="m-0">My Wallet</span>
+<span class="m-0">$75</span>
+</a>
+</li>
+<li><a class="dropdown-item" href="faq.html">FAQ's</a></li>
+<li><a class="dropdown-item" href="index.html">Log Out</a></li>
+<li class="d-flex align-items-center gap-2 bg-light p-3 mt-2">
+<img src="img/qr-code.png" alt class="img-fluid qr-code">
+<div>
+<h6 class="fw-bold mb-1">Simple way to<br> get groceries<br>
+<span class="text-primary">in minutes</span>
+</h6>
+<p class="small-sm m-0 lh-1">Scan the QR code and download Sitename app</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="list-inline-item m-0">
+<a href="#" class="link-dark text-decoration-none d-flex align-items-center gap-2 text-start px-3 px-lg-0" data-bs-toggle="offcanvas" data-bs-target="#mycart" aria-controls="mycart">
+<i class="lni lni-shopping-basket text-danger fs-3"></i>
+<div class="lh-sm">
+<small class="text-muted text-truncate d-inline-block mb-0 align-bottom small">3 items</small>
+<h6 class="mb-0 fw-normal">$1,247.00</h6>
+</div>
+</a>
+</li>
+<li class="list-inline-item m-0">
+<button class="navbar-toggler text-decoration-none collapsed" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+<i class="lni lni-menu text-danger fs-2"></i>
+</button>
+</li>
+</ul>
+</div>
+</nav>
+<nav class="navbar navbar-expand-lg navbar-light navbar-default bg-white osahan-second-nav py-0 shadow-sm">
+<div class="container px-0 px-xl-3">
+<div class="dropdown me-3 d-none d-lg-block">
+<button class="btn btn-danger d-flex align-items-center rounded-pill" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+<i class="lni lni-grid-alt d-flex me-1"></i> All Departments
+</button>
+<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+<li><a class="dropdown-item" href="listing.html">Dairy, Bread & Eggs</a></li>
+<li><a class="dropdown-item" href="listing.html">Snacks & Munchies</a></li>
+<li><a class="dropdown-item" href="listing.html">Fruits & Vegetables</a></li>
+<li><a class="dropdown-item" href="listing.html">Cold Drinks & Juices</a></li>
+<li><a class="dropdown-item" href="listing.html">Breakfast & Instant Food</a></li>
+<li><a class="dropdown-item" href="listing.html">Bakery & Biscuits</a></li>
+<li><a class="dropdown-item" href="listing.html">Chicken, Meat & Fish</a></li>
+</ul>
+</div>
+<div class="offcanvas offcanvas-start p-4 p-lg-0" id="navbar-default">
+<div class="d-flex justify-content-between align-items-center mb-2 d-block d-lg-none">
+<a class="navbar-brand m-0 d-lg-block flex-shrink-0" href="index.html">
+<img src="img/logo.png" alt class="img-fluid logo-img d-none d-lg-block">
+<img src="img/icon.png" alt class="img-fluid logo-img d-lg-none">
+</a>
+<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="d-block d-lg-none">
+<form action="#">
+<div class="input-group bg-white top-search-bar border rounded-pill align-items-center py-1 ps-2">
+<input type="text" class="form-control bg-transparent border-0 rounded-0" placeholder="Search items" aria-label="Search items">
+<a href="#" class="btn btn-danger rounded-pill me-1"><i class="icofont-search me-1"></i> Search</a>
+</div>
+</form>
+<div class="mt-3 mb-4">
+<a href="#" class="link-dark osahan-location text-decoration-none d-flex align-items-center gap-2 text-start flex-shrink-0 w-100" data-bs-toggle="offcanvas" data-bs-target="#location" aria-controls="location">
+<i class="lni lni-map-marker text-danger fs-5"></i>
+<div class="lh-sm">
+<p class="fw-normal mb-0 small">Delivery in 16 minutes</p>
+<p class="text-muted m-0 text-truncate d-inline-block mb-0 align-bottom">H.No. 2834 Street, 784 Sector, Ludhiana, Punjab</p>
+</div>
+<i class="lni lni-chevron-down ms-auto"></i>
+</a>
+</div>
+</div>
+<div class="d-block d-lg-none mb-3">
+<a class="btn btn-danger d-flex align-items-center rounded-pill w-100" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+<i class="lni lni-grid-alt d-flex me-1"></i> All Departments
+</a>
+<div class="collapse mt-2" id="collapseExample">
+<div class="card card-body">
+<ul class="mb-0 list-unstyled">
+<li><a class="dropdown-item" href="listing.html">Dairy, Bread & Eggs</a></li>
+<li><a class="dropdown-item" href="listing.html">Snacks & Munchies</a></li>
+<li><a class="dropdown-item" href="listing.html">Fruits & Vegetables</a></li>
+<li><a class="dropdown-item" href="listing.html">Cold Drinks & Juices</a></li>
+<li><a class="dropdown-item" href="listing.html">Breakfast & Instant Food</a></li>
+<li><a class="dropdown-item" href="listing.html">Bakery & Biscuits</a></li>
+<li><a class="dropdown-item" href="listing.html">Chicken, Meat & Fish</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="d-none d-lg-block">
+<ul class="navbar-nav align-items-center ">
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+Home
+</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="index.html">Home 1</a></li>
+<li><a class="dropdown-item" href="index-2.html">Home 2</a></li>
+<li><a class="dropdown-item" href="index-3.html">Home 3</a></li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+Shop
+</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="listing.html">Shop Grid - Filter</a></li>
+<li><a class="dropdown-item" href="shop-grid-3-column.html">Shop Grid - 3 column</a></li>
+<li><a class="dropdown-item" href="shop-list.html">Shop List - Filter</a></li>
+<li><a class="dropdown-item" href="shop-fullwidth.html">Shop Wide</a></li>
+<li><a class="dropdown-item" href="product-detail.html">Shop Single</a></li>
+<li><a class="dropdown-item" href="shop-wishlist.html">Shop Wishlist</a></li>
+<li><a class="dropdown-item" href="shop-cart.html">Shop Cart</a></li>
+<li><a class="dropdown-item" href="checkout.html">Shop Checkout</a></li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+Stores
+</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="store-list.html">Store List</a></li>
+<li><a class="dropdown-item" href="store-grid.html">Store Grid</a></li>
+<li><a class="dropdown-item" href="store-single.html">Store Single</a></li>
+</ul>
+</li>
+<li class="nav-item dropdown dropdown-fullwidth">
+<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+Mega menu
+</a>
+<div class=" dropdown-menu py-0">
+<div class="row p-2 p-lg-4">
+<div class="col-lg-3 col-6 mb-4 mb-lg-0">
+<h6 class="text-dark ps-3">Dairy, Bread & Eggs</h6>
+<a class="dropdown-item" href="listing.html">Butter</a>
+<a class="dropdown-item" href="listing.html">Milk Drinks</a>
+<a class="dropdown-item" href="listing.html">Curd & Yogurt</a>
+<a class="dropdown-item" href="listing.html">Eggs</a>
+<a class="dropdown-item" href="listing.html">Buns & Bakery</a>
+<a class="dropdown-item" href="listing.html">Cheese</a>
+<a class="dropdown-item" href="listing.html">Condensed Milk</a>
+<a class="dropdown-item" href="listing.html">Dairy Products</a>
+</div>
+<div class="col-lg-3 col-6 mb-4 mb-lg-0">
+<h6 class="text-dark ps-3">Breakfast & Instant Food</h6>
+<a class="dropdown-item" href="listing.html">Breakfast Cereal</a>
+<a class="dropdown-item" href="listing.html"> Noodles, Pasta & Soup</a>
+<a class="dropdown-item" href="listing.html">Frozen Veg Snacks</a>
+<a class="dropdown-item" href="listing.html"> Frozen Non-Veg Snacks</a>
+<a class="dropdown-item" href="listing.html"> Vermicelli</a>
+<a class="dropdown-item" href="listing.html"> Instant Mixes</a>
+<a class="dropdown-item" href="listing.html"> Batter</a>
+<a class="dropdown-item" href="listing.html"> Fruit and Juices</a>
+</div>
+<div class="col-lg-3 col-12 mb-4 mb-lg-0">
+<h6 class="text-dark ps-3">Cold Drinks & Juices</h6>
+<a class="dropdown-item" href="listing.html">Soft Drinks</a>
+<a class="dropdown-item" href="listing.html">Fruit Juices</a>
+<a class="dropdown-item" href="listing.html">Coldpress</a>
+<a class="dropdown-item" href="listing.html">Water & Ice Cubes</a>
+<a class="dropdown-item" href="listing.html">Soda & Mixers</a>
+<a class="dropdown-item" href="listing.html">Health Drinks</a>
+<a class="dropdown-item" href="listing.html">Herbal Drinks</a>
+<a class="dropdown-item" href="listing.html">Milk Drinks</a>
+</div>
+<div class="col-lg-3 col-12 mb-4 mb-lg-0">
+<div class="grocery-banner-1 rounded-4 py-4 ps-4 pe-5 h-100">
+<h3 class="fw-bold mb-2 pe-5 me-4 text-danger">Dont miss this offer today. </h3>
+<p class="lh-base mb-5">Get Upto <br><span class="fw-bold">30%</span> Off</p>
+<a href="listing.html" class="btn btn-danger fs-6 fw-bold rounded-pill mt-3">Shop Now<i class="bi bi-arrow-right ms-1"></i></a>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+Pages
+</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="blog.html">Blog</a></li>
+<li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
+<li><a class="dropdown-item" href="blog-category.html">Blog Category</a></li>
+<li><a class="dropdown-item" href="about.html">About us</a></li>
+<li><a class="dropdown-item" href="404error.html">404 Error</a></li>
+<li><a class="dropdown-item" href="contact.html">Contact</a></li>
+<li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+Account
+</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="signin.html">Sign in</a></li>
+<li><a class="dropdown-item" href="signup.html">Signup</a></li>
+<li><a class="dropdown-item" href="forgot-password.html">Forgot Password</a></li>
+<li class="dropdown-submenu dropend">
+<a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">
+My Account
+</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="account-orders.html">Orders</a></li>
+<li><a class="dropdown-item" href="account-settings.html">Settings</a></li>
+<li><a class="dropdown-item" href="account-address.html">Address</a></li>
+<li><a class="dropdown-item" href="my-wallet.html">My Wallet</a></li>
+<li><a class="dropdown-item" href="account-notification.html">Notification</a></li>
+</ul>
+</li>
+<li><a class="dropdown-item" href="my-account.html">My Account Tabs</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="d-block d-lg-none h-100" data-simplebar>
+<ul class="navbar-nav ">
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+Home
+</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="index.html">Home 1</a></li>
+<li><a class="dropdown-item" href="index-2.html">Home 2</a></li>
+<li><a class="dropdown-item" href="index-3.html">Home 3</a></li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+Shop
+</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="listing.html">Shop Grid - Filter</a></li>
+<li><a class="dropdown-item" href="shop-grid-3-column.html">Shop Grid - 3 column</a></li>
+<li><a class="dropdown-item" href="shop-list.html">Shop List - Filter</a></li>
+<li><a class="dropdown-item" href="shop-fullwidth.html">Shop Wide</a></li>
+<li><a class="dropdown-item" href="product-detail.html">Shop Single</a></li>
+<li><a class="dropdown-item" href="shop-wishlist.html">Shop Wishlist</a></li>
+<li><a class="dropdown-item" href="shop-cart.html">Shop Cart</a></li>
+<li><a class="dropdown-item" href="checkout.html">Shop Checkout</a></li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+Stores
+</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="store-list.html">Store List</a></li>
+<li><a class="dropdown-item" href="store-grid.html">Store Grid</a></li>
+<li><a class="dropdown-item" href="store-single.html">Store Single</a></li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+Mega Menu
+</a>
+<ul class="dropdown-menu">
+<li class="dropdown-submenu ">
+<a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">
+Dairy, Bread & Eggs
+</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="listing.html">Milk Drinks</a></li>
+<li><a class="dropdown-item" href="listing.html">Curd & Yogurt</a></li>
+<li> <a class="dropdown-item" href="listing.html">Eggs</a></li>
+<li><a class="dropdown-item" href="listing.html">Buns & Bakery</a></li>
+<li><a class="dropdown-item" href="listing.html">Cheese</a></li>
+<li> <a class="dropdown-item" href="listing.html">Condensed Milk</a></li>
+<li><a class="dropdown-item" href="listing.html">Dairy Products</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu ">
+<a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">
+Vegetables & Fruits
+</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="listing.html">Vegetables</a></li>
+<li><a class="dropdown-item" href="listing.html">Fruits</a></li>
+<li> <a class="dropdown-item" href="listing.html">Exotics & Premium</a></li>
+<li><a class="dropdown-item" href="listing.html">Fresh Sprouts</a></li>
+<li><a class="dropdown-item" href="listing.html">Frozen Veg</a></li>
+</ul>
+</li>
+<li class="dropdown-submenu ">
+<a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">
+Cold Drinks & Juices
+</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="listing.html">Soft Drinks</a></li>
+<li><a class="dropdown-item" href="listing.html">Fruit Juices</a></li>
+<li> <a class="dropdown-item" href="listing.html">Coldpress</a></li>
+<li><a class="dropdown-item" href="listing.html">Soda & Mixers</a></li>
+<li><a class="dropdown-item" href="listing.html">Milk Drinks</a></li>
+<li><a class="dropdown-item" href="listing.html">Health Drinks</a></li>
+<li><a class="dropdown-item" href="listing.html">Herbal Drinks</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+Pages
+</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="blog.html">Blog</a></li>
+<li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
+<li><a class="dropdown-item" href="blog-category.html">Blog Category</a></li>
+<li><a class="dropdown-item" href="about.html">About us</a></li>
+<li><a class="dropdown-item" href="404error.html">404 Error</a></li>
+<li><a class="dropdown-item" href="contact.html">Contact</a></li>
+<li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+Account
+</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="signin.html">Sign in</a></li>
+<li><a class="dropdown-item" href="signup.html">Signup</a></li>
+<li><a class="dropdown-item" href="forgot-password.html">Forgot Password</a></li>
+<li class="dropdown-submenu dropend">
+<a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">
+My Account
+</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="account-orders.html">Orders</a></li>
+<li><a class="dropdown-item" href="account-settings.html">Settings</a></li>
+<li><a class="dropdown-item" href="account-address.html">Address</a></li>
+<li><a class="dropdown-item" href="my-wallet.html">My Wallet</a></li>
+<li><a class="dropdown-item" href="account-notification.html">Notification</a></li>
+</ul>
+</li>
+<li><a class="dropdown-item" href="my-account.html">My Account Tabs</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+
+<section class="osahan-listing border-top my-account-main-page">
+<div class="container">
+<div class="row m-0">
+<div class="col-lg-3 border-start my-account-sidebar bg-light p-0">
+<div class="sticky-sidebar my-account-main-page-sidebar">
+<div class="text-center p-5 border-bottom">
+<i class="lni lni-user text-white fs-1 bg-danger rounded-pill p-3"></i>
+<p class="pt-2 m-0">+91-85916-22340</p>
+</div>
+<ul class="nav flex-column nav-pills nav-pills-dark">
+
+<li class="nav-item">
+<a class="nav-link" aria-current="page" href="account-orders.html"><i class="bi bi-basket me-3"></i>Your Orders</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="account-settings.html"><i class="bi bi-gear me-3"></i>Settings</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link active" href="account-address.html"><i class="bi bi-geo-alt me-3"></i>Address</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="my-wallet.html"><i class="bi bi-credit-card me-3"></i>My Wallet</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="account-notification.html"><i class="bi bi-bell me-3"></i>Notification</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link " href="index.html"><i class="bi bi-box-arrow-in-right me-2"></i>Log out</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-lg-9 p-0">
+<div class="p-3 p-lg-5 border-start border-end bg-white h-100">
+<div class="tab-pane">
+<div class="d-flex align-items-center justify-content-between w-100 mb-4">
+<h4 class="m-0">My Addresses</h4>
+<a href="#" class="btn btn-danger d-flex align-items-center rounded-pill text-link text-decoration-none btn-sm text-start" data-bs-toggle="modal" data-bs-target="#addaddress"><i class="icofont-plus-circle me-2"></i>Add New <span class="d-none d-lg-block ms-1">Address</span></a>
+</div>
+<div class="row row-cols-xl-1 row-cols-lg-1 row-cols-md-1 row-cols-1 g-3 osahan-my-addresses">
+<div class="col">
+<div class="d-flex align-items-center justify-content-between bg-white border p-3 rounded-3">
+<div class="w-75">
+<div class="d-flex align-items-center gap-3 osahan-mb-1">
+<i class="lni lni-home text-muted fs-5"></i>
+<div class="pe-4 overflow-hidden">
+<h6 class="fw-bold mb-1">Home</h6>
+<p class="text-muted text-truncate mb-2 small">H.No. 2834 Street, 784 Sector, Ludhiana, Punjab</p>
+<a href="#" class="px-2 py-1 small btn-sm bg-success-subtle text-success rounded-2 d-inline-block">Default address</a>
+</div>
+</div>
+</div>
+<div class="ms-auto d-flex align-items-center gap-3 text-center small">
+<a href="#" class="small" data-bs-toggle="modal" data-bs-target="#addaddress"><i class="lni lni-pencil-alt fs-6"></i><br>Edit</a>
+<a href="#" class="link-dark small" data-bs-toggle="modal" data-bs-target="#trash"><i class="lni lni-trash-can fs-6"></i><br>Delete</a>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="d-flex align-items-center justify-content-between bg-white border p-3 rounded-3">
+<div class="w-75">
+<div class="d-flex align-items-center gap-3 osahan-mb-1">
+<i class="lni lni-map-marker text-muted fs-5"></i>
+<div class="pe-4 overflow-hidden">
+<h6 class="fw-bold mb-1">Ludhiana</h6>
+<p class="text-muted text-truncate mb-2 small">87997 Street, 784 Sector, Ludhiana, Punjab</p>
+<a href="#" class="px-2 py-1 small btn-sm bg-dark-subtle text-dark rounded-2 d-inline-block">Set as Default</a>
+</div>
+</div>
+</div>
+<div class="ms-auto d-flex align-items-center gap-3 text-center small">
+<a href="#" class="small" data-bs-toggle="modal" data-bs-target="#addaddress"><i class="lni lni-pencil-alt fs-6"></i><br>Edit</a>
+<a href="#" class="link-dark small" data-bs-toggle="modal" data-bs-target="#trash"><i class="lni lni-trash-can fs-6"></i><br>Delete</a>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="d-flex align-items-center justify-content-between bg-white border p-3 rounded-3">
+<div class="w-75">
+<div class="d-flex align-items-center gap-3 osahan-mb-1">
+<i class="lni lni-briefcase text-muted fs-5"></i>
+<div class="pe-4 overflow-hidden">
+<h6 class="fw-bold mb-1">Office</h6>
+<p class="text-muted text-truncate mb-2 small">9878, 784 Sector, Ludhiana, Punjab</p>
+<a href="#" class="px-2 py-1 small btn-sm bg-dark-subtle text-dark rounded-2 d-inline-block">Set as Default</a>
+</div>
+</div>
+</div>
+<div class="ms-auto d-flex align-items-center gap-3 text-center small">
+<a href="#" class="small" data-bs-toggle="modal" data-bs-target="#addaddress"><i class="lni lni-pencil-alt fs-6"></i><br>Edit</a>
+<a href="#" class="link-dark small" data-bs-toggle="modal" data-bs-target="#trash"><i class="lni lni-trash-can fs-6"></i><br>Delete</a>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="d-flex align-items-center justify-content-between bg-white border p-3 rounded-3">
+<div class="w-75">
+<div class="d-flex align-items-center gap-3 osahan-mb-1">
+<i class="lni lni-home text-muted fs-5"></i>
+<div class="pe-4 overflow-hidden">
+<h6 class="fw-bold mb-1">Home</h6>
+<p class="text-muted text-truncate mb-2 small">H.No. 2834 Street, 784 Sector, Ludhiana, Punjab</p>
+<a href="#" class="px-2 py-1 small btn-sm bg-dark-subtle text-dark rounded-2 d-inline-block">Set as Default</a>
+</div>
+</div>
+</div>
+<div class="ms-auto d-flex align-items-center gap-3 text-center small">
+<a href="#" class="small" data-bs-toggle="modal" data-bs-target="#addaddress"><i class="lni lni-pencil-alt fs-6"></i><br>Edit</a>
+<a href="#" class="link-dark small" data-bs-toggle="modal" data-bs-target="#trash"><i class="lni lni-trash-can fs-6"></i><br>Delete</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="border-top py-5 bg-white">
+<div class="container">
+<div class="row g-4">
+<div class="col-lg-3 col-6">
+<i class="lni lni-timer text-danger fs-1"></i>
+<h6 class="fw-bold pt-3">10 minute grocery now</h6>
+<p class="text-muted small m-0">Get your order delivered to your doorstep at the earliest from Eatpure
+pickup stores near you.
+</p>
+</div>
+<div class="col-lg-3 col-6">
+<i class="lni lni-gift text-danger fs-1"></i>
+<h6 class="fw-bold pt-3">Best Prices & Offers</h6>
+<p class="text-muted small m-0">Cheaper prices than your local supermarket, great cashback offers to top
+it off. Get best pricess & offers.
+</p>
+</div>
+<div class="col-lg-3 col-6">
+<i class="lni lni-cart text-danger fs-1"></i>
+<h6 class="fw-bold pt-3">Wide Assortment</h6>
+<p class="text-muted small m-0">Choose from 5000+ products across food, personal care, household, bakery,
+veg and non-veg & other categories.
+</p>
+</div>
+<div class="col-lg-3 col-6">
+<i class="lni lni-reload text-danger fs-1"></i>
+<h6 class="fw-bold pt-3">Easy Returns</h6>
+<p class="text-muted small m-0">Not satisfied with a product? Return it at the doorstep & get a refund
+within hours. No questions asked <a href="#" class="text-danger">policy.</a>
+</p>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="bg-light py-5">
+<div class="container">
+<div class="row g-4">
+<div class="col-lg-8 col-12">
+<h6 class="fw-bold pb-2">Category</h6>
+<div class="row">
+<div class="col-3">
+<ul class="list-unstyled d-grid gap-2">
+<li><a href="listing.html">Vegetables & Fruits</a></li>
+<li><a href="listing.html">Breakfast & instant food</a></li>
+<li><a href="listing.html">Bakery & Biscuits</a></li>
+<li><a href="listing.html">Atta, rice & dal</a></li>
+<li><a href="listing.html">Sauces & spreads</a></li>
+<li><a href="listing.html">Organic & gourmet</a></li>
+</ul>
+</div>
+<div class="col-3">
+<ul class="list-unstyled d-grid gap-2">
+<li><a href="listing.html">Masala, oil & more</a></li>
+<li><a href="listing.html">Chicken, meat & fish</a></li>
+<li><a href="listing.html">Paan corner</a></li>
+<li><a href="listing.html">Pharma & wellness</a></li>
+<li><a href="listing.html">Home & office</a></li>
+<li><a href="listing.html">Pet care</a></li>
+</ul>
+</div>
+<div class="col-3">
+<ul class="list-unstyled d-grid gap-2">
+<li><a href="listing.html">Baby care</a></li>
+<li><a href="listing.html">Cleaning essentials</a></li>
+<li><a href="listing.html">Personal care</a></li>
+<li><a href="listing.html">Masala, oil & more</a></li>
+<li><a href="listing.html">Chicken, meat & fish</a></li>
+<li><a href="listing.html">Paan corner</a></li>
+</ul>
+</div>
+<div class="col-3">
+<ul class="list-unstyled d-grid gap-2">
+<li><a href="listing.html">Tea, coffee & drinks</a></li>
+<li><a href="listing.html">Tea, coffee & drinks</a></li>
+<li><a href="listing.html">Masala, oil & more</a></li>
+<li><a href="listing.html">Chicken, meat & fish</a></li>
+<li><a href="listing.html">Paan corner</a></li>
+<li><a href="listing.html">Home & office</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-12">
+<h6 class="fw-bold pb-2">Useful Links</h6>
+<div class="row">
+<div class="col-6">
+<ul class="list-unstyled d-grid gap-2">
+<li><a href="index.html">Home</a></li>
+<li><a href="listing.html">Listing</a></li>
+<li><a href="checkout.html">Checkout</a></li>
+<li><a href="product-detail.html">Product Detail</a></li>
+<li><a href="my-account.html">My Account</a></li>
+<li><a href="faq.html">FAQ</a></li>
+</ul>
+</div>
+<div class="col-6">
+<ul class="list-unstyled d-grid gap-2">
+<li><a href="my-account.html">My Addresses</a></li>
+<li><a href="my-account.html">My Order</a></li>
+<li><a href="my-account.html">My Wallet</a></li>
+<li><a href="my-account.html">Saved Address</a></li>
+<li><a href="my-account.html">Express</a></li>
+<li><a href="my-account.html">Seller</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<div class="bg-white py-4 footer-app">
+<div class="container">
+<div class="row align-items-center justify-content-between">
+<div class="col-auto">
+<div class="d-flex align-items-center gap-1">
+<p class="m-0 small text-muted pe-2">Payment Partners</p>
+<a href="#"><img src="img/svg/p5.svg" alt class="img-fluid footer-payment"></a>
+<a href="#"><img src="img/svg/p8.svg" alt class="img-fluid footer-payment"></a>
+<a href="#"><img src="img/svg/p4.svg" alt class="img-fluid footer-payment"></a>
+<a href="#"><img src="img/svg/p3.svg" alt class="img-fluid footer-payment"></a>
+</div>
+</div>
+<div class="col-auto">
+<div class="d-flex align-items-center justify-content-end gap-2">
+<p class="m-0 small text-muted pe-1">Get deliveries with App</p>
+<a href="#"><img src="img/svg/appstore-btn.svg" alt class="img-fluid mobile-app-link"></a>
+<a href="#"><img src="img/svg/googleplay-btn.svg" alt class="img-fluid mobile-app-link"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-light py-4 footer-copyright">
+<div class="container">
+<div class="row align-items-center justify-content-between">
+<div class="col-auto">
+<p class="m-0 small">© Copyright 2023 Company Name, All rights reserved.</p>
+</div>
+<div class="col-auto">
+<div class="d-flex align-items-center gap-2 social-links">
+<p class="m-0 text-muted pe-1">Follow us</p>
+<a href="#"><i class="icofont-facebook"></i></a>
+<a href="#"><i class="icofont-twitter"></i></a>
+<a href="#"><i class="icofont-instagram"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="offcanvas offcanvas-end my-cart-width" tabindex="-1" id="viewdetails">
+<div class="offcanvas-header px-4 py-3 border-bottom">
+<h5 class="offcanvas-title" id="viewdetailsLabel">View Details</h5>
+<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body p-4">
+<h5 class="fw-bold text-success mb-1">Yay! order successfully delivered</h5>
+<p class="fw-normal">Placed on wed, 19 Oct 23, 12:55 pm</p>
+<div class="bg-light d-flex rounded-3 px-4 py-3 mb-3">
+<p class="fw-bold mb-0">Payment mode</p>
+<p class="text-success ms-auto m-0">Paid online</p>
+</div>
+<div class="card border rounded-4 mb-4">
+<div class="card-header d-flex align-items-center justify-content-between py-3">
+<div>
+<h6 class="fw-bold mb-1">4 items</h6>
+<p class="text-muted m-0">Order ID: ord049190212</p>
+</div>
+<div>
+<a href="#">Download Invoice <i class="lni lni-download ms-1"></i></a>
+</div>
+</div>
+<div class="card-body">
+<div class="d-flex align-items-center gap-3 pb-3">
+<img src="img/list/7.jpg" alt class="img-fluid border rounded-4 order-img">
+<div>
+<p class="fw-bold mb-1">Duracell Battery</p>
+<p class="text-muted small mb-0">1 pack (4 pieces)<br>$82 x 1</p>
+</div>
+<h6 class="ms-auto m-0">$82</h6>
+</div>
+<div class="d-flex align-items-center gap-3 py-3">
+<img src="img/list/8.jpg" alt class="img-fluid border rounded-4 order-img">
+<div>
+<p class="fw-bold mb-1">Craz Fritts Corn & Potato Sticks -
+Cream & Onion Sample
+</p>
+<p class="text-muted small mb-0">7 g<br>$0 x 1</p>
+</div>
+<h6 class="ms-auto m-0">$0</h6>
+</div>
+<div class="d-flex align-items-center gap-3 py-3">
+<img src="img/list/9.jpg" alt class="img-fluid border rounded-4 order-img">
+<div>
+<p class="fw-bold mb-1">Bingo Tedhe Medhe Masala Tadka Crisps
+</p>
+<p class="text-muted small mb-0">85 g<br>$18 x 1</p>
+</div>
+<h6 class="ms-auto m-0">$18</h6>
+</div>
+<div class="d-flex align-items-center gap-3 pt-3">
+<img src="img/list/10.jpg" alt class="img-fluid border rounded-4 order-img">
+<div>
+<p class="fw-bold mb-1">Sprite Lime Flavoured Soft Drink (2 L)
+</p>
+<p class="text-muted small mb-0">2 L<br>$86 x 1</p>
+</div>
+<h6 class="ms-auto m-0">$86</h6>
+</div>
+</div>
+</div>
+<div>
+<h5 class="fw-bold">Bill details</h5>
+<div class="d-flex align-items-center justify-content-between mb-2">
+<p class="text-muted m-0">M.R.P</p>
+<p class="text-muted m-0">+$211</p>
+</div>
+<div class="d-flex align-items-center justify-content-between mb-2">
+<p class="text-muted m-0">Product Discount</p>
+<p class="text-danger m-0">-$25</p>
+</div>
+<div class="d-flex align-items-center justify-content-between mb-2">
+<p class="fw-bold m-0">Final Paid Amount</p>
+<p class="fw-bold m-0">$186</p>
+</div>
+<div class="alert alert-success d-flex align-items-center rounded-3 justify-content-between py-3 px-3 mb-0 mt-3" role="alert">
+<h6 class="fw-bold m-0">Your Savings</h6>
+<h6 class="fw-bold m-0">$24</h6>
+</div>
+</div>
+</div>
+<div class="offcanvas-footer shadow p-4">
+<div class="mb-3">
+<h6 class="fw-bold mb-1">Delivery address</h6>
+<p class="text-muted small m-0">home - 87997 Street, 784 Sector, Ludhiana, Punjab</p>
+</div>
+<a href="#" data-bs-dismiss="offcanvas" aria-label="Close" class="btn btn-danger fw-bold py-3 px-4 w-100 rounded-4 shadow"><i class="icofont-user-alt-5 me-2"></i>Customer Support</a>
+</div>
+</div>
+
+<div class="offcanvas offcanvas-end my-cart-width" tabindex="-1" id="location">
+<div class="offcanvas-header px-4 py-3 d-flex align-items-center justify-content-start gap-3 bg-danger text-white">
+<a href="#" class="link-light" data-bs-dismiss="offcanvas" aria-label="Close"><i class="lni lni-arrow-left fs-5 d-flex"></i></a>
+<h6 class="offcanvas-title" id="locationLabel">Enter your area or apartment name</h6>
+</div>
+<div class="offcanvas-body p-0">
+
+<div class="p-4 bg-light">
+<div class="input-group bg-white rounded-3 border py-1">
+<a href="#" class="input-group-text bg-transparent border-0 rounded-0 px-3"><i class="icofont-search"></i></a>
+<input type="text" class="form-control bg-transparent border-0 rounded-0 ps-0" placeholder="Try J P Nagar, Andheri West etc.." aria-label="Try J P Nagar, Andheri West etc..">
+</div>
+<a href="#" class="link-dark" data-bs-dismiss="offcanvas" aria-label="Close">
+<div class="d-flex align-items-center gap-2 text-danger pt-3">
+<i class="icofont-location-arrow"></i>
+<p class="m-0">Use my Current location</p>
+</div>
+</a>
+</div>
+
+<div class="border-bottom p-4">
+<p class="text-black text-uppercase small">Saved Addresses</p>
+<div class="d-flex align-items-center justify-content-between">
+<div class="w-75">
+<a href="#" class="link-dark" data-bs-dismiss="offcanvas" aria-label="Close">
+<div class="d-flex align-items-center gap-3 osahan-mb-1">
+<i class="lni lni-home text-muted fs-5"></i>
+<div>
+<h6 class="fw-bold mb-1">Home</h6>
+<p class="text-muted text-truncate mb-0 small">H.No. 2834 Street, 784 Sector, Ludhiana, Punjab</p>
+</div>
+</div>
+</a>
+</div>
+<a href="#" class="link-dark">
+<div class="bg-light rounded-circle icon-sm">
+<i class="icofont-share fs-5 text-dark-emphasis"></i>
+</div>
+</a>
+</div>
+</div>
+
+<div class="p-4">
+<p class="text-black text-uppercase small">Recent Searches</p>
+<a href="#" class="link-dark" data-bs-dismiss="offcanvas" aria-label="Close">
+<div class="d-flex align-items-center gap-3 osahan-mb-1">
+<i class="lni lni-map-marker text-muted fs-5"></i>
+<div>
+<h6 class="fw-bold mb-1">Ludhiana</h6>
+<p class="text-muted text-truncate mb-0 small">87997 Street, 784 Sector, Ludhiana, Punjab</p>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="login" aria-hidden="true" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content bg-white border-0 overflow-hidden rounded-4">
+<div class="modal-body p-0">
+<div class="row g-0">
+<div class="col-lg-4 d-none d-lg-block">
+<div class="p-4 d-flex bg-warning-subtle align-items-center flex-column text-center gap-4 justify-content-center h-100">
+<img src="img/icon.png" alt class="img-fluid mb-auto px-4">
+<div>
+<h5 class="fw-bold">Welcome to Eatpure</h5>
+<p class="m-0">Download the app get free food &amp; <span class="fw-bold text-success">$50</span> off on your first order.</p>
+</div>
+<a href="#" class="btn btn-sm w-100 btn-warning mt-auto rounded-pill">Download App</a>
+</div>
+</div>
+<div class="col-lg-8 p-4">
+<button type="button" class="btn-close float-end shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
+<div class="mb-4 pe-5">
+<h6 class="fw-bold text-danger mb-1">Phone Number Verification</h6>
+</div>
+<form>
+<div class="text-start">
+<p class="lh-base pb-2 text-muted fs-6 mb-1">Enter your phone number to Login/Sign up</p>
+<div class="input-group bg-white shadow-sm rounded-3 border py-2 mb-4">
+<a href="#" class="input-group-text bg-transparent border-0 rounded-0 text-black px-3"><i class="lni lni-mobile me-1"></i> +91</a>
+<input type="number" class="form-control bg-transparent border-0 rounded-0 ps-0" placeholder="Type your number" value>
+</div>
+<a href="#" class="btn btn-danger fw-bold py-3 px-4 w-100 rounded-3 shadow" data-bs-target="#verify" data-bs-toggle="modal">Next</a>
+<div class="mt-3">
+<p class="text-muted mb-1">By continuing, you agree to our</p>
+<span class="small">
+<a href="#" class="text-decoration-underline me-2">Terms of service</a>
+<a href="#" class="text-decoration-underline ">Privacy Policy</a>
+</span>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="verify" aria-hidden="true" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content bg-white border-0 overflow-hidden rounded-4">
+<div class="modal-body p-0">
+<div class="row g-0">
+<div class="col-lg-4 d-none d-lg-block">
+<div class="p-4 d-flex bg-warning-subtle align-items-center flex-column text-center gap-4 justify-content-center h-100">
+<img src="img/icon.png" alt class="img-fluid mb-auto px-4">
+<div>
+<h5 class="fw-bold">Welcome to Eatpure</h5>
+<p class="m-0">Download the app get free food &amp; <span class="fw-bold text-success">$50</span> off on your first order.</p>
+</div>
+<a href="#" class="btn btn-sm w-100 btn-warning mt-auto rounded-pill">Download App</a>
+</div>
+</div>
+<div class="col-lg-8 p-4">
+<div class="mb-4">
+<h6 class="fw-bold d-flex align-items-center text-danger mb-1"><a class="me-3" href="#" data-bs-target="#login" data-bs-toggle="modal"><i class="lni lni-arrow-left fs-5 d-flex"></i></a> Phone Number Verification</h6>
+</div>
+<form>
+<div class="text-start">
+<p class="lh-base pb-2 text-muted fs-6 mb-1">Enter 4 digit code sent to your phone<br>+91-+91 1234 567890</p>
+<div class="row mb-4">
+<div class="col-3">
+<input type="text" class="form-control text-center bg-white shadow-sm rounded-3 border py-2 fs-4" value="5" maxlength="1">
+</div>
+<div class="col-3">
+<input type="text" class="form-control text-center bg-white shadow-sm rounded-3 border py-2 fs-4" value="2" maxlength="1">
+</div>
+<div class="col-3">
+<input type="text" class="form-control text-center bg-white shadow-sm rounded-3 border py-2 fs-4" value="8" maxlength="1">
+</div>
+<div class="col-3">
+<input type="text" class="form-control text-center bg-white shadow-sm rounded-3 border py-2 fs-4" value="1" maxlength="1">
+</div>
+</div>
+<a href="#" class="btn btn-danger fw-bold py-3 px-4 w-100 rounded-3 shadow" data-bs-toggle="modal" data-bs-target="#successfull">Next</a>
+<div class="mt-3">
+<span class="small d-flex justify-content-between">
+<a href="#" class="text-decoration-underline me-2">Resend Code</a>
+<small class="text-muted">Resend Code (in <b id="timer">60</b> secs)</small>
+</span>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="successfull" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content bg-white border-0 overflow-hidden rounded-4">
+<div class="modal-body border-0 rounded-3 text-center p-5">
+<img src="img/successfull.png" alt class="img-fluid w-25">
+<p class="fw-bold text-danger mb-0 mt-4">Welcome to Eatpure</p>
+<h5 class="text-success mb-3 mt-1">Your Login is Successfull</h5>
+<p class="mb-4">Download the app get free food &amp; <span class="fw-bold text-success">$50</span> off on your first order.</p>
+<a href="listing.html" class="btn fw-bold py-2 px-4 btn-danger mt-auto rounded-pill">Shop Now</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="trash" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-sm modal-dialog-centered">
+<div class="modal-content bg-white border-0 overflow-hidden rounded-4">
+<div class="modal-body border-0 rounded-3 text-center p-4">
+<i class="lni lni-trash-can fs-1 bg-danger-subtle text-danger rounded-pill p-3"></i>
+<h5 class="lh-base mb-4 mt-4">Are you sure want to delete this address?</h5>
+<a href="#" data-bs-dismiss="modal" aria-label="Close" class="btn fw-bold py-2 px-4 btn-danger mt-auto rounded-pill">Delete</a>
+<a href="#" data-bs-dismiss="modal" aria-label="Close" class="btn fw-bold py-2 px-4 btn-light mt-auto rounded-pill">Cancel</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="offcanvas offcanvas-end my-cart-width" tabindex="-1" id="mycart">
+<div class="offcanvas-header px-4 py-3">
+<h5 class="offcanvas-title fw-bold">My Cart</h5>
+<button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body p-0">
+<div class="bg-light px-4 py-3">
+<h6 class="fw-bold mb-1">Delivery in 10 minutes</h6>
+<p class="text-muted m-0">3 items</p>
+</div>
+
+<div class="px-4 py-3">
+<div class="row">
+<div class="col-3">
+<img src="img/list/20.jpg" alt class="img-fluid border rounded-4">
+</div>
+<div class="col-9">
+<h6 class="fw-bold mb-1">Haldiram's Sev Bhujia</h6>
+<p class="text-muted">500g</p>
+<div class="d-flex align-items-center justify-content-between">
+<h6 class="fw-bold m-0"><del class="text-muted small fw-normal">$55</del><br>$50</h6>
+<div class="input-group border rounded overflow-hidden value">
+<input type="button" value="-" class="button-minus btn btn-light btn-sm border-end col" data-field="quantity">
+<input type="text" value="1" name="quantity" class="quantity-field form-control form-control-sm col text-center shadow-none border-0">
+<input type="button" value="+" class="button-plus btn btn-light btn-sm border-start col" data-field="quantity">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="px-4 py-3">
+<div class="row">
+<div class="col-3">
+<img src="img/list/19.jpg" alt class="img-fluid border rounded-4">
+</div>
+<div class="col-9">
+<h6 class="fw-bold mb-1">NutriChoice Digestive</h6>
+<p class="text-muted">250g</p>
+<div class="d-flex align-items-center justify-content-between">
+<h6 class="fw-bold m-0"><del class="text-muted small fw-normal">$25</del><br>$20</h6>
+<div class="input-group border rounded overflow-hidden value">
+<input type="button" value="-" class="button-minus btn btn-light btn-sm border-end col" data-field="quantity">
+<input type="text" value="1" name="quantity" class="quantity-field form-control form-control-sm col text-center shadow-none border-0">
+<input type="button" value="+" class="button-plus btn btn-light btn-sm border-start col" data-field="quantity">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="px-4 py-3">
+<div class="row">
+<div class="col-3">
+<img src="img/list/18.jpg" alt class="img-fluid border rounded-4">
+</div>
+<div class="col-9">
+<h6 class="fw-bold mb-1">Cadbury 5 Star Chocolate</h6>
+<p class="text-muted">300g</p>
+<div class="d-flex align-items-center justify-content-between">
+<h6 class="fw-bold m-0"><del class="text-muted small fw-normal">$65</del><br>$60</h6>
+<div class="input-group border rounded overflow-hidden value">
+<input type="button" value="-" class="button-minus btn btn-light btn-sm border-end col" data-field="quantity">
+<input type="text" value="1" name="quantity" class="quantity-field form-control form-control-sm col text-center shadow-none border-0">
+<input type="button" value="+" class="button-plus btn btn-light btn-sm border-start col" data-field="quantity">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="p-4 bg-light">
+<div class="d-flex align-items-center justify-content-between mb-1">
+<p class="text-muted m-0">MRP</p>
+<p class="m-0">$50.00</p>
+</div>
+<div class="d-flex align-items-center justify-content-between mb-1">
+<p class="text-muted m-0">Product Discount</p>
+<p class="m-0">$20.00</p>
+</div>
+<div class="d-flex align-items-center justify-content-between mb-3">
+<p class="text-muted m-0">Delivery Charges</p>
+<p class="text-info m-0">$60.00</p>
+</div>
+<div class="d-flex align-items-center justify-content-between">
+<h6 class="fw-bold m-0">Grand Total</h6>
+<p class="fw-bold text-danger m-0">$130.00</p>
+</div>
+</div>
+</div>
+<div class="offcanvas-footer p-4">
+<a href="#" class="btn btn-danger fw-bold d-flex align-items-center justify-content-between py-3 px-4 w-100 rounded-4 shadow" data-bs-toggle="offcanvas" data-bs-target="#myaddress" aria-controls="myaddress">3 items &#183; $130
+<span class="text-uppercase">Proceed<i class="icofont-double-right ms-1"></i></span>
+</a>
+</div>
+</div>
+
+<div class="offcanvas offcanvas-end my-cart-width" tabindex="-1" id="myaddress">
+<div class="offcanvas-header px-4 py-3">
+<h5 class="offcanvas-title fw-bold" id="myaddressLabel">My Address</h5>
+<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body p-0">
+<div class="bg-light">
+<a href="#" class="link-dark py-3 px-4 osahan-location text-decoration-none d-flex align-items-center gap-3 text-start flex-shrink-0" data-bs-toggle="modal" data-bs-target="#addaddress">
+<i class="lni lni-circle-plus text-danger fs-4"></i>
+<div class="lh-sm">
+<h6 class="fw-bold mb-0">Add a new address in</h6>
+<small class="text-muted text-truncate d-inline-block mb-0 align-bottom small">Ludhiana, Punjab, India</small>
+</div>
+</a>
+</div>
+<div class="py-3 px-4">
+<p class="text-muted m-0">Choose Delivery Address</p>
+</div>
+<div class="px-4 py-2 bg-light">
+<div class="form-check osahan-radio-box-action osahan-radio-box w-100 bg-white border p-3 my-3 rounded-4">
+<input class="form-check-input" type="radio" name="aaflexRadioDefault" id="aaflexRadioDefault1">
+<label class="form-check-label" for="aaflexRadioDefault1"></label>
+<div class="osahan-radio-box-inner">
+<div class="d-flex align-items-center justify-content-between bg-white">
+<div class="w-75">
+<div class="d-flex align-items-center gap-3 osahan-mb-1">
+<i class="lni lni-home text-muted fs-5"></i>
+<div class="pe-4 overflow-hidden">
+<h6 class="fw-bold mb-1">Mr David - <span class="fw-light small">Home</span></h6>
+<p class="text-muted text-truncate mb-0 small">H.No. 2834 Street, 784 Sector, Ludhiana, Punjab</p>
+</div>
+</div>
+</div>
+<div class="ms-auto gap-2 mt-auto text-center small">
+<a href="#" class="small d-flex align-items-center gap-1" data-bs-toggle="modal" data-bs-target="#addaddress"><i class="lni lni-pencil-alt d-flex"></i>Edit</a>
+</div>
+</div>
+</div>
+</div>
+<div class="form-check osahan-radio-box-action osahan-radio-box w-100 bg-white border p-3 my-3 rounded-4">
+<input class="form-check-input" type="radio" name="aaflexRadioDefault" id="aaflexRadioDefault2" checked>
+<label class="form-check-label" for="aaflexRadioDefault2"></label>
+<div class="osahan-radio-box-inner">
+<div class="d-flex align-items-center justify-content-between bg-white">
+<div class="w-75">
+<div class="d-flex align-items-center gap-3 osahan-mb-1">
+<i class="lni lni-briefcase text-muted fs-5"></i>
+<div class="pe-4 overflow-hidden">
+<h6 class="fw-bold mb-1">Black Smith - <span class="fw-light small">Office</span></h6>
+<p class="text-muted text-truncate mb-0 small">9878, 784 Sector, Ludhiana, Punjab</p>
+</div>
+</div>
+</div>
+<div class="ms-auto gap-2 mt-auto text-center small">
+<a href="#" class="small d-flex align-items-center gap-1" data-bs-toggle="modal" data-bs-target="#addaddress"><i class="lni lni-pencil-alt d-flex"></i>Edit</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="offcanvas-footer p-4">
+<a href="#" class="btn btn-danger fw-bold py-3 px-4 w-100 rounded-4 shadow" data-bs-toggle="offcanvas" data-bs-target="#mycardwithaddress" aria-controls="mycardwithaddress">Done</a>
+</div>
+</div>
+
+<div class="offcanvas offcanvas-end my-cart-width" tabindex="-1" id="mycardwithaddress">
+<div class="offcanvas-header px-4 py-3">
+<h5 class="offcanvas-title fw-bold">My Cart</h5>
+<button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body p-0">
+<div class="bg-light px-4 py-3">
+<h6 class="fw-bold mb-1">Delivery in 10 minutes</h6>
+<p class="text-muted m-0">3 items</p>
+</div>
+
+<div class="px-4 py-3">
+<div class="row">
+<div class="col-3">
+<img src="img/list/20.jpg" alt class="img-fluid border rounded-4">
+</div>
+<div class="col-9">
+<h6 class="fw-bold mb-1">Haldiram's Sev Bhujia</h6>
+<p class="text-muted">500g</p>
+<div class="d-flex align-items-center justify-content-between">
+<h6 class="fw-bold m-0"><del class="text-muted small fw-normal">$55</del><br>$50</h6>
+<div class="input-group border rounded overflow-hidden value">
+<input type="button" value="-" class="button-minus btn btn-light btn-sm border-end col" data-field="quantity">
+<input type="text" value="1" name="quantity" class="quantity-field form-control form-control-sm col text-center shadow-none border-0">
+<input type="button" value="+" class="button-plus btn btn-light btn-sm border-start col" data-field="quantity">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="px-4 py-3">
+<div class="row">
+<div class="col-3">
+<img src="img/list/19.jpg" alt class="img-fluid border rounded-4">
+</div>
+<div class="col-9">
+<h6 class="fw-bold mb-1">NutriChoice Digestive</h6>
+<p class="text-muted">250g</p>
+<div class="d-flex align-items-center justify-content-between">
+<h6 class="fw-bold m-0"><del class="text-muted small fw-normal">$25</del><br>$20</h6>
+<div class="input-group border rounded overflow-hidden value">
+<input type="button" value="-" class="button-minus btn btn-light btn-sm border-end col" data-field="quantity">
+<input type="text" value="1" name="quantity" class="quantity-field form-control form-control-sm col text-center shadow-none border-0">
+<input type="button" value="+" class="button-plus btn btn-light btn-sm border-start col" data-field="quantity">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="px-4 py-3">
+<div class="row">
+<div class="col-3">
+<img src="img/list/18.jpg" alt class="img-fluid border rounded-4">
+</div>
+<div class="col-9">
+<h6 class="fw-bold mb-1">Cadbury 5 Star Chocolate</h6>
+<p class="text-muted">300g</p>
+<div class="d-flex align-items-center justify-content-between">
+<h6 class="fw-bold m-0"><del class="text-muted small fw-normal">$65</del><br>$60</h6>
+<div class="input-group border rounded overflow-hidden value">
+<input type="button" value="-" class="button-minus btn btn-light btn-sm border-end col" data-field="quantity">
+<input type="text" value="1" name="quantity" class="quantity-field form-control form-control-sm col text-center shadow-none border-0">
+<input type="button" value="+" class="button-plus btn btn-light btn-sm border-start col" data-field="quantity">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="p-4 bg-light">
+<div class="d-flex align-items-center justify-content-between mb-1">
+<p class="text-muted m-0">MRP</p>
+<p class="m-0">$50.00</p>
+</div>
+<div class="d-flex align-items-center justify-content-between mb-1">
+<p class="text-muted m-0">Product Discount</p>
+<p class="m-0">$20.00</p>
+</div>
+<div class="d-flex align-items-center justify-content-between mb-3">
+<p class="text-muted m-0">Delivery Charges</p>
+<p class="text-info m-0">$60.00</p>
+</div>
+<div class="d-flex align-items-center justify-content-between">
+<h6 class="fw-bold m-0">Grand Total</h6>
+<p class="fw-bold text-danger m-0">$130.00</p>
+</div>
+</div>
+</div>
+<div class="offcanvas-footer border-top p-4">
+<div class="d-flex align-items-center gap-3 pb-3">
+<i class="lni lni-home fs-4"></i>
+<div>
+<h6 class="fw-bold mb-1">Delivering to home</h6>
+<p class="text-muted small m-0">1st Block 1st Cross, Punjab</p>
+</div>
+<a href="#" data-bs-toggle="offcanvas" data-bs-target="#myaddress" aria-controls="myaddress" class="ms-auto">Change</a>
+</div>
+<a href="checkout.html" class="btn btn-danger fw-bold d-flex align-items-center justify-content-between py-3 px-4 w-100 rounded-4 shadow">3 items &#183; $130 <span>Proceed To Pay<i class="icofont-double-right ms-1"></i></span>
+</a>
+</div>
+</div>
+
+<div class="modal fade" id="addaddress" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-lg">
+<div class="modal-content border-0 rounded-4 overflow-hidden">
+<div class="modal-body p-0">
+<div class="row g-0">
+<div class="col-lg-6">
+<div class="ratio ratio-1x1 h-100">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1750606.6319414608!2d74.2897923755259!3d31.02197051025034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391964aa569e7355%3A0x8fbd263103a38861!2sPunjab!5e0!3m2!1sen!2sin!4v1677160520792!5m2!1sen!2sin" class="border-0"></iframe>
+</div>
+</div>
+<div class="col-lg-6 p-4">
+<button type="button" class="btn-close float-end shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
+<div class="mb-3 pe-5">
+<h5 class="fw-bold mb-1">Enter complete address</h5>
+<p class="text-muted small m-0">This allow us to find you easily and give you timely delivery experience </p>
+</div>
+<form>
+<div class="row g-3 mb-3">
+<div class="col-4">
+<div class="form-floating h-100">
+<select class="form-select" id="floatingSelectGrid">
+<option value="1" selected>Mr</option>
+<option value="2">Mrs</option>
+<option value="3">Miss</option>
+</select>
+<label for="floatingSelectGrid">Sr. Name</label>
+</div>
+</div>
+<div class="col-8">
+<div class="form-floating h-100">
+<input type="text" class="form-control" id="floatingInput" placeholder="name" value="David">
+<label for="floatingInput">Receiver's name</label>
+</div>
+</div>
+</div>
+<div class="form-floating mb-3">
+<input type="text" class="form-control" id="floatingInput1" placeholder="address" value="87997 Street, 784 Sector">
+<label for="floatingInput1">Flat/House/Office No.</label>
+</div>
+<div class="form-floating mb-3">
+<input type="text" class="form-control" id="floatingInput2" placeholder="street" value="Ludhiana, Punjab">
+<label for="floatingInput2">Street/Society/Office Name</label>
+</div>
+<div class="mb-4">
+<p class="text-muted small mb-2">Save address as</p>
+<div class="d-flex align-items-center gap-2">
+<input type="radio" class="btn-check" name="btnradio" id="btnradio1" checked>
+<label class="btn btn-outline-secondary btn-sm" for="btnradio1">Home</label>
+<input type="radio" class="btn-check" name="btnradio" id="btnradio2">
+<label class="btn btn-outline-secondary btn-sm" for="btnradio2">Office</label>
+<input type="radio" class="btn-check" name="btnradio" id="btnradio3">
+<label class="btn btn-outline-secondary btn-sm" for="btnradio3">Other</label>
+</div>
+</div>
+<a href="#" class="btn btn-danger fw-bold py-3 px-4 w-100 rounded-3 shadow" data-bs-dismiss="modal" aria-label="Close">Save Address</a>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="vender/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<script src="vender/jquery/jquery.min.js"></script>
+
+<script src="vender/slick/slick/slick.min.js"></script>
+
+<script src="js/quantity.js"></script>
+
+<script src="js/script.js"></script>
+</body>
+
+<!-- Mirrored from iamosahan.com/preview/eatpure/account-address.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 20 Apr 2024 11:32:21 GMT -->
+</html>

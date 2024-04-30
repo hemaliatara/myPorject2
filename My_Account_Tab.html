@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.png" type="image/png">
+    <title>Radhika - Online Grocery Supermarket </title>
+
+    <link rel="stylesheet" href="theme/vender/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="theme/vender/icofont/icofont.min.css">
+    <link href="theme/cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="theme/vender/slick/slick/slick.css">
+    <link rel="stylesheet" href="theme/vender/slick/slick/slick-theme.css">
+
+    <link rel="stylesheet" href="theme/css/style.css">
+</head>
+
+<body class="bg-light">
+    <div class="homepage-one-header">
+
+        <div class="homepage-nav-one-header">
+            <nav class="navbar navbar-expand-lg bg-white osahan-header px-lg-0 pt-lg-2 pb-lg-0 p-3 shadow-sm">
+                <div class="container px-0 px-xl-3">
+                    <a class="navbar-brand m-0 d-lg-block flex-shrink-0" href="index.html">
+                        <img src="theme/img/my_img/new1.png"  alt class="img-fluid logo-img d-none d-lg-block">
+                        <img src="theme/img/icon.png"  alt class="img-fluid logo-img d-lg-none">
+                    </a>
+                    <div
+                        class="border rounded-pill overflow-hidden osahan-top-search w-100 ms-5 me-4 d-none d-lg-flex bg-white">
+                        <a href="#"
+                            class="link-dark p-2 border-end osahan-location text-decoration-none d-flex align-items-center gap-2 text-start flex-shrink-0"
+                            data-bs-toggle="offcanvas" data-bs-target="#location" aria-controls="location">
+                            <i class="lni lni-map-marker text-danger fs-5"></i>
+                            
+                            <i class="lni lni-chevron-down"></i>
+                        </a>
+                        <div class="input-group bg-white top-search-bar align-items-center">
+                            <input type="text" class="form-control bg-transparent border-0 rounded-0"
+                                placeholder="Search items" aria-label="Search items">
+                            <a href="#" class="btn btn-danger rounded-pill me-1"><i class="icofont-search me-1"></i>
+                                Search</a>
+                        </div>
+                    </div>
+                    <ul class="list-inline d-flex align-items-center ms-auto m-0 flex-shrink-0">
+                        <li class="list-inline-item m-0">
+                            <a href="#"
+                                class="link-dark text-decoration-none d-flex align-items-center gap-2 text-start px-lg-4"
+                                data-bs-target="#login" data-bs-toggle="modal">
+                                <i class="lni lni-user text-dark fs-5 bg-light border rounded-pill p-2"></i>
+                                <div class="lh-sm d-none d-lg-block">
+                                    <small
+                                        class="text-muted text-truncate d-inline-block mb-0 align-bottom small">Hello,
+                                        Sign in</small>
+                                    <h6 class="mb-0 fw-normal">My Account</h6>
+                                </div>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </nav>
+            <nav class="navbar navbar-expand-lg navbar-light navbar-default bg-white osahan-second-nav py-0 shadow-sm">
+                <div class="container px-0 px-xl-3">
+                    <div class="dropdown me-3 d-none d-lg-block">
+                        <button class="btn btn-danger d-flex align-items-center rounded-pill" type="button"
+                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="lni lni-grid-alt d-flex me-1"></i> All Departments
+                        </button>
+                        
+                    </div>
+                    <div class="offcanvas offcanvas-start p-4 p-lg-0" id="navbar-default">
+                        <div class="d-flex justify-content-between align-items-center mb-2 d-block d-lg-none">
+                            <a class="navbar-brand m-0 d-lg-block flex-shrink-0" href="index.html">
+                                <img src="theme/img/logo.png" alt class="img-fluid logo-img d-none d-lg-block">
+                                <img src="theme/img/icon.png" alt class="img-fluid logo-img d-lg-none">
+                            </a>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="d-block d-lg-none">
+                            <form action="#">
+                                <div
+                                    class="input-group bg-white top-search-bar border rounded-pill align-items-center py-1 ps-2">
+                                    <input type="text" class="form-control bg-transparent border-0 rounded-0"
+                                        placeholder="Search items" aria-label="Search items">
+                                    <a href="#" class="btn btn-danger rounded-pill me-1"><i
+                                            class="icofont-search me-1"></i> Search</a>
+                                </div>
+                            </form>
+                            
+                        </div>
+                        <div class="d-block d-lg-none mb-3">
+                            <a class="btn btn-danger d-flex align-items-center rounded-pill w-100"
+                                data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                <i class="lni lni-grid-alt d-flex me-1"></i> All Departments
+                            </a>
+                            
+                        </div>
+                        <div class="d-none d-lg-block">
+                            <ul class="navbar-nav align-items-center ">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Home
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="index.html">Home 1</a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Shop
+                                    </a>
+                                   
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Stores
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="store-list.html">Store List</a></li>
+                                        <li><a class="dropdown-item" href="store-grid.html">Store Grid</a></li>
+                                        <li><a class="dropdown-item" href="store-single.html">Store Single</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown dropdown-fullwidth">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Mega menu
+                                    </a>
+                                    <div class=" dropdown-menu py-0">
+                                        <div class="row p-2 p-lg-4">
+                                            <div class="col-lg-3 col-6 mb-4 mb-lg-0">
+                                                <h6 class="text-dark ps-3">Dairy, Bread & Eggs</h6>
+                                                <a class="dropdown-item" href="listing.html">Butter</a>
+                                                <a class="dropdown-item" href="listing.html">Milk Drinks</a>
+                                                <a class="dropdown-item" href="listing.html">Curd & Yogurt</a>
+                                                <a class="dropdown-item" href="listing.html">Eggs</a>
+                                                <a class="dropdown-item" href="listing.html">Buns & Bakery</a>
+                                                <a class="dropdown-item" href="listing.html">Cheese</a>
+                                                <a class="dropdown-item" href="listing.html">Condensed Milk</a>
+                                                <a class="dropdown-item" href="listing.html">Dairy Products</a>
+                                            </div>
+                                            <div class="col-lg-3 col-6 mb-4 mb-lg-0">
+                                                <h6 class="text-dark ps-3">Breakfast & Instant Food</h6>
+                                                <a class="dropdown-item" href="listing.html">Breakfast Cereal</a>
+                                                <a class="dropdown-item" href="listing.html"> Noodles, Pasta & Soup</a>
+                                                <a class="dropdown-item" href="listing.html">Frozen Veg Snacks</a>
+                                                <a class="dropdown-item" href="listing.html"> Frozen Non-Veg Snacks</a>
+                                                <a class="dropdown-item" href="listing.html"> Vermicelli</a>
+                                                <a class="dropdown-item" href="listing.html"> Instant Mixes</a>
+                                                <a class="dropdown-item" href="listing.html"> Batter</a>
+                                                <a class="dropdown-item" href="listing.html"> Fruit and Juices</a>
+                                            </div>
+                                            <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                                                <h6 class="text-dark ps-3">Cold Drinks & Juices</h6>
+                                                <a class="dropdown-item" href="listing.html">Soft Drinks</a>
+                                                <a class="dropdown-item" href="listing.html">Fruit Juices</a>
+                                                <a class="dropdown-item" href="listing.html">Coldpress</a>
+                                                <a class="dropdown-item" href="listing.html">Water & Ice Cubes</a>
+                                                <a class="dropdown-item" href="listing.html">Soda & Mixers</a>
+                                                <a class="dropdown-item" href="listing.html">Health Drinks</a>
+                                                <a class="dropdown-item" href="listing.html">Herbal Drinks</a>
+                                                <a class="dropdown-item" href="listing.html">Milk Drinks</a>
+                                            </div>
+                                            <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                                                <div class="grocery-banner-1 rounded-4 py-4 ps-4 pe-5 h-100">
+                                                    <h3 class="fw-bold mb-2 pe-5 me-4 text-danger">Dont miss this offer
+                                                        today. </h3>
+                                                    <p class="lh-base mb-5">Get Upto <br><span
+                                                            class="fw-bold">30%</span> Off</p>
+                                                    <a href="listing.html"
+                                                        class="btn btn-danger fs-6 fw-bold rounded-pill mt-3">Shop Now<i
+                                                            class="bi bi-arrow-right ms-1"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                        <li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
+                                        <li><a class="dropdown-item" href="blog-category.html">Blog Category</a></li>
+                                        <li><a class="dropdown-item" href="about.html">About us</a></li>
+                                        <li><a class="dropdown-item" href="404error.html">404 Error</a></li>
+                                        <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                                        <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Account
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="signin.html">Sign in</a></li>
+                                        <li><a class="dropdown-item" href="signup.html">Signup</a></li>
+                                        <li><a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
+                                        </li>
+                                        <li class="dropdown-submenu dropend">
+                                            <a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">
+                                                My Account
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="account-orders.html">Orders</a></li>
+                                                <li><a class="dropdown-item" href="account-settings.html">Settings</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="account-address.html">Address</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="my-wallet.html">My Wallet</a></li>
+                                                <li><a class="dropdown-item"
+                                                        href="account-notification.html">Notification</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="my-account.html">My Account Tabs</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="d-block d-lg-none h-100" data-simplebar>
+                            <ul class="navbar-nav ">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Home
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="index.html">Home 1</a></li>
+                                       
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Shop
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="listing.html">Shop Grid - Filter</a></li>
+                                        <li><a class="dropdown-item" href="shop-grid-3-column.html">Shop Grid - 3
+                                                column</a></li>
+                                        <li><a class="dropdown-item" href="shop-list.html">Shop List - Filter</a></li>
+                                        <li><a class="dropdown-item" href="shop-fullwidth.html">Shop Wide</a></li>
+                                        <li><a class="dropdown-item" href="product-detail.html">Shop Single</a></li>
+                                        <li><a class="dropdown-item" href="shop-wishlist.html">Shop Wishlist</a></li>
+                                        <li><a class="dropdown-item" href="shop-cart.html">Shop Cart</a></li>
+                                        <li><a class="dropdown-item" href="checkout.html">Shop Checkout</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Stores
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="store-list.html">Store List</a></li>
+                                        <li><a class="dropdown-item" href="store-grid.html">Store Grid</a></li>
+                                        <li><a class="dropdown-item" href="store-single.html">Store Single</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Mega Menu
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-submenu ">
+                                            <a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">
+                                                Dairy, Bread & Eggs
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="listing.html">Milk Drinks</a></li>
+                                                <li><a class="dropdown-item" href="listing.html">Curd & Yogurt</a></li>
+                                                <li> <a class="dropdown-item" href="listing.html">Eggs</a></li>
+                                                <li><a class="dropdown-item" href="listing.html">Buns & Bakery</a></li>
+                                                <li><a class="dropdown-item" href="listing.html">Cheese</a></li>
+                                                <li> <a class="dropdown-item" href="listing.html">Condensed Milk</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="listing.html">Dairy Products</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown-submenu ">
+                                            <a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">
+                                                Vegetables & Fruits
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="listing.html">Vegetables</a></li>
+                                                <li><a class="dropdown-item" href="listing.html">Fruits</a></li>
+                                                <li> <a class="dropdown-item" href="listing.html">Exotics & Premium</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="listing.html">Fresh Sprouts</a></li>
+                                                <li><a class="dropdown-item" href="listing.html">Frozen Veg</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown-submenu ">
+                                            <a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">
+                                                Cold Drinks & Juices
+                                            </a>
+                                           
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Account
+                                    </a>
+                                    
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="account-orders.html">Orders</a></li>
+                                                <li><a class="dropdown-item" href="account-settings.html">Settings</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="account-address.html">Address</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="my-wallet.html">My Wallet</a></li>
+                                                <li><a class="dropdown-item"
+                                                        href="account-notification.html">Notification</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="my-account.html">My Account Tabs</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="hero-slider-main">
+            <div class="hero-slider mb-0">
+                <div class="hero-slider-1">
+                    <div class="container">
+                        
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+   
+
+    <section class="pb-4">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-6 col-12">
+                    
+                </div>
+                <div class="col-lg-6 col-12">
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container py-5">
+       
+       
+    </div>
+    <section style="min-height: 500px;">
+
+        
+<section class="py-5 border-top">
+    <div class="container">
+    <div class="row rounded-4 border osahan-my-account-page border-secondary-subtle g-0 col-lg-8 mx-auto overflow-hidden">
+    <div class="col-lg-3 border-end">
+    <div class="nav flex-column my-account-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <div class="text-center p-4 border-bottom">
+    <i class="lni lni-user text-white fs-1 bg-danger rounded-pill p-3"></i>
+    <p class="pt-2 m-0">+91-85916-22340</p>
+    </div>
+    <button class="nav-link border-bottom active" id="v-pills-my-address-tab" data-bs-toggle="pill" data-bs-target="#v-pills-my-address" type="button" role="tab" aria-controls="v-pills-my-address" aria-selected="true">
+    <i class="lni lni-map me-2"></i>My Addresses</button>
+    <button class="nav-link border-bottom" id="v-pills-my-order-tab" data-bs-toggle="pill" data-bs-target="#v-pills-my-order" type="button" role="tab" aria-controls="v-pills-my-order" aria-selected="false">
+    <i class="lni lni-list me-2"></i>My Order</button>
+    <button class="nav-link border-bottom" id="v-pills-my-wallet-tab" data-bs-toggle="pill" data-bs-target="#v-pills-my-wallet" type="button" role="tab" aria-controls="v-pills-my-wallet" aria-selected="false">
+    <i class="lni lni-wallet me-2"></i>My Wallet</button>
+    <a class="nav-link border-bottom" href="index.html"><i class="lni lni-key me-2"></i>Logout</a>
+    </div>
+    </div>
+    <div class="col-lg-9 bg-light">
+    <div class="tab-content p-4" id="v-pills-tabContent">
+    
+    <div class="tab-pane fade show active" id="v-pills-my-address" role="tabpanel" tabindex="0">
+    <div class="d-flex align-items-center justify-content-between w-100 mb-4">
+    <h4 class="m-0">My Addresses</h4>
+    <a href="#" class="btn btn-danger d-flex align-items-center rounded-pill text-link text-decoration-none btn-sm text-start" data-bs-toggle="modal" data-bs-target="#addaddress"><i class="icofont-plus-circle me-2"></i>Add New <span class="d-none d-lg-block ms-1">Address</span></a>
+    </div>
+    <div class="row row-cols-xl-1 row-cols-lg-1 row-cols-md-1 row-cols-1 g-3 osahan-my-addresses">
+    <div class="col">
+    <div class="d-flex align-items-center justify-content-between bg-white border p-3 rounded-3">
+    <div class="w-75">
+    <div class="d-flex align-items-center gap-3 osahan-mb-1">
+    <i class="lni lni-home text-muted fs-5"></i>
+    <div class="pe-4 overflow-hidden">
+    <h6 class="fw-bold mb-1">Home</h6>
+    <p class="text-muted text-truncate mb-0 small">H.No. 2834 Street, 784 Sector, Ludhiana, Punjab</p>
+    </div>
+    </div>
+    </div>
+    <div class="ms-auto d-flex align-items-center gap-3 text-center small">
+    <a href="#" class="small" data-bs-toggle="modal" data-bs-target="#addaddress"><i class="lni lni-pencil-alt fs-6"></i><br>Edit</a>
+    <a href="#" class="link-dark small" data-bs-toggle="modal" data-bs-target="#trash"><i class="lni lni-trash-can fs-6"></i><br>Delete</a>
+    </div>
+    </div>
+    </div>
+    <div class="col">
+    <div class="d-flex align-items-center justify-content-between bg-white border p-3 rounded-3">
+    <div class="w-75">
+    <div class="d-flex align-items-center gap-3 osahan-mb-1">
+    <i class="lni lni-map-marker text-muted fs-5"></i>
+    <div class="pe-4 overflow-hidden">
+    <h6 class="fw-bold mb-1">Ludhiana</h6>
+    <p class="text-muted text-truncate mb-0 small">87997 Street, 784 Sector, Ludhiana, Punjab</p>
+    </div>
+    </div>
+    </div>
+    <div class="ms-auto d-flex align-items-center gap-3 text-center small">
+    <a href="#" class="small" data-bs-toggle="modal" data-bs-target="#addaddress"><i class="lni lni-pencil-alt fs-6"></i><br>Edit</a>
+    <a href="#" class="link-dark small" data-bs-toggle="modal" data-bs-target="#trash"><i class="lni lni-trash-can fs-6"></i><br>Delete</a>
+    </div>
+    </div>
+    </div>
+    <div class="col">
+    <div class="d-flex align-items-center justify-content-between bg-white border p-3 rounded-3">
+    <div class="w-75">
+    <div class="d-flex align-items-center gap-3 osahan-mb-1">
+    <i class="lni lni-briefcase text-muted fs-5"></i>
+    <div class="pe-4 overflow-hidden">
+    <h6 class="fw-bold mb-1">Office</h6>
+    <p class="text-muted text-truncate mb-0 small">9878, 784 Sector, Ludhiana, Punjab</p>
+    </div>
+    </div>
+    </div>
+    <div class="ms-auto d-flex align-items-center gap-3 text-center small">
+    <a href="#" class="small" data-bs-toggle="modal" data-bs-target="#addaddress"><i class="lni lni-pencil-alt fs-6"></i><br>Edit</a>
+    <a href="#" class="link-dark small" data-bs-toggle="modal" data-bs-target="#trash"><i class="lni lni-trash-can fs-6"></i><br>Delete</a>
+    </div>
+    </div>
+    </div>
+    <div class="col">
+    <div class="d-flex align-items-center justify-content-between bg-white border p-3 rounded-3">
+    <div class="w-75">
+    <div class="d-flex align-items-center gap-3 osahan-mb-1">
+    <i class="lni lni-home text-muted fs-5"></i>
+    <div class="pe-4 overflow-hidden">
+    <h6 class="fw-bold mb-1">Home</h6>
+    <p class="text-muted text-truncate mb-0 small">H.No. 2834 Street, 784 Sector, Ludhiana, Punjab</p>
+    </div>
+    </div>
+    </div>
+    <div class="ms-auto d-flex align-items-center gap-3 text-center small">
+    <a href="#" class="small" data-bs-toggle="modal" data-bs-target="#addaddress"><i class="lni lni-pencil-alt fs-6"></i><br>Edit</a>
+    <a href="#" class="link-dark small" data-bs-toggle="modal" data-bs-target="#trash"><i class="lni lni-trash-can fs-6"></i><br>Delete</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="tab-pane fade" id="v-pills-my-order" role="tabpanel" tabindex="0">
+    <div class="d-flex align-items-center justify-content-between w-100 mb-4">
+    <h4 class="m-0">My Orders</h4>
+    </div>
+    <div class="row row-cols-xl-1 row-cols-lg-1 row-cols-md-1 row-cols-1 g-3 osahan-my-orders">
+    <div class="col">
+    <div data-bs-toggle="offcanvas" data-bs-target="#viewdetails" aria-controls="viewdetails" class="d-flex align-items-center justify-content-between bg-white border p-3 rounded-3">
+    <div class="w-75">
+    <div class="d-flex align-items-center gap-3 osahan-mb-1">
+    <i class="lni lni-shopping-basket text-success fs-4"></i>
+    <div>
+    <small class="badge bg-success-subtle text-success rounded-pill fw-normal small-sm mb-2">Delivered</small>
+    <h6 class="fw-bold mb-1 d-flex align-items-center">ORD049190212 &#183; <span class="text-danger fw-normal ms-2"> ₹ 186</span> </h6>
+    <p class="text-muted text-truncate mb-0 small">Placed on wed, 19 Oct 23, 12:55 pm</p>
+    </div>
+    </div>
+    </div>
+    <div class="ms-auto d-flex align-items-center gap-3 text-center small">
+    <a href="#" class="small"><i class="lni lni-eye fs-6"></i><br>View Details</a>
+    </div>
+    </div>
+    </div>
+    <div class="col">
+    <div data-bs-toggle="offcanvas" data-bs-target="#viewdetails" aria-controls="viewdetails" class="d-flex align-items-center justify-content-between bg-white border p-3 rounded-3">
+    <div class="w-75">
+    <div class="d-flex align-items-center gap-3 osahan-mb-1">
+    <i class="lni lni-shopping-basket text-success fs-4"></i>
+    <div>
+    <small class="badge bg-success-subtle text-success rounded-pill fw-normal small-sm mb-2">Delivered</small>
+    <h6 class="fw-bold mb-1 d-flex align-items-center">ORD065763273 &#183; <span class="text-danger fw-normal ms-2"> ₹ 876</span> </h6>
+    <p class="text-muted text-truncate mb-0 small">Placed on wed, 22 oct'22, 12:55 pm</p>
+    </div>
+    </div>
+    </div>
+    <div class="ms-auto d-flex align-items-center gap-3 text-center small">
+    <a href="#" class="small"><i class="lni lni-eye fs-6"></i><br>View Details</a>
+    </div>
+    </div>
+    </div>
+    <div class="col">
+    <div data-bs-toggle="offcanvas" data-bs-target="#viewdetails" aria-controls="viewdetails" class="d-flex align-items-center justify-content-between bg-white border p-3 rounded-3">
+    <div class="w-75">
+    <div class="d-flex align-items-center gap-3 osahan-mb-1">
+    <i class="lni lni-shopping-basket text-success fs-4"></i>
+    <div>
+    <small class="badge bg-danger-subtle text-danger rounded-pill fw-normal small-sm mb-2">Cancelled</small>
+    <h6 class="fw-bold mb-1 d-flex align-items-center">ORD065763273 &#183; <span class="text-danger fw-normal ms-2"> ₹ 976</span> </h6>
+    <p class="text-muted text-truncate mb-0 small">Placed on wed, 22 oct'22, 12:55 pm</p>
+    </div>
+    </div>
+    </div>
+    <div class="ms-auto d-flex align-items-center gap-3 text-center small">
+    <a href="#" class="small"><i class="lni lni-eye fs-6"></i><br>View Details</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="tab-pane fade" id="v-pills-my-wallet" role="tabpanel" tabindex="0">
+    <div class="d-flex align-items-center justify-content-between w-100 mb-4">
+    <h4 class="m-0">My Balance</h4>
+    <h4 class="fw-bold text-danger m-0">₹ 75</h4>
+    </div>
+    <div class="row row-cols-xl-1 row-cols-lg-1 row-cols-md-1 row-cols-1 g-3">
+    <div class="col">
+    <div class="d-flex align-items-center justify-content-between bg-white border p-3 rounded-3">
+    <div class="w-75">
+    <div class="d-flex align-items-center gap-3 osahan-mb-1">
+    <i class="lni lni-circle-plus text-muted fs-5"></i>
+    <div class="lh-sm">
+    <h6 class="fw-bold text-success mb-1">Cashback</h6>
+    <p class="text-truncate mb-2 small">Transaction ID: 50919487</p>
+    <small class="text-muted">On 23 Oct 18, 03:13 PM</small>
+    </div>
+    </div>
+    </div>
+    <div class="ms-auto d-flex align-items-center gap-3 text-center small">
+    <span class="text-success fw-bold h6 m-0">+₹ 75</span>
+    </div>
+    </div>
+    </div>
+    <div class="col">
+    <div class="d-flex align-items-center justify-content-between bg-white border p-3 rounded-3">
+    <div class="w-75">
+    <div class="d-flex align-items-center gap-3 osahan-mb-1">
+    <i class="lni lni-circle-minus text-muted fs-5"></i>
+    <div class="lh-sm">
+    <h6 class="fw-bold text-danger mb-1">Purchase</h6>
+    <p class="text-truncate mb-2 small">Transaction ID: 50919487</p>
+    <small class="text-muted">On 23 Oct 18, 03:13 PM</small>
+    </div>
+    </div>
+    </div>
+    <div class="ms-auto d-flex align-items-center gap-3 text-center small">
+    <span class="text-danger fw-bold h6 m-0">-₹ 75</span>
+    </div>
+    </div>
+    </div>
+    <div class="col">
+    <div class="d-flex align-items-center justify-content-between bg-white border p-3 rounded-3">
+    <div class="w-75">
+    <div class="d-flex align-items-center gap-3 osahan-mb-1">
+    <i class="lni lni-circle-plus text-muted fs-5"></i>
+    <div class="lh-sm">
+    <h6 class="fw-bold text-success mb-1">Cashback</h6>
+    <p class="text-truncate mb-2 small">Transaction ID: 50919487</p>
+    <small class="text-muted">On 23 Oct 18, 03:13 PM</small>
+    </div>
+    </div>
+    </div>
+    <div class="ms-auto d-flex align-items-center gap-3 text-center small">
+    <span class="text-success fw-bold h6 m-0">+₹ 75</span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+
+    </section>
+   
+
+
+   
+
+    <footer class="bg-light py-5">
+       
+    
+    <div class="bg-white py-4 footer-app">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-auto">
+                    <div class="d-flex align-items-center gap-1">
+                        <p class="m-0 small text-muted pe-2">Payment Partners</p>
+                        <a href="#"><img src="theme/img/svg/p5.svg" alt class="img-fluid footer-payment"></a>
+                        <a href="#"><img src="theme/img/svg/p8.svg" alt class="img-fluid footer-payment"></a>
+                        <a href="#"><img src="theme/img/svg/p4.svg" alt class="img-fluid footer-payment"></a>
+                        <a href="#"><img src="theme/img/svg/p3.svg" alt class="img-fluid footer-payment"></a>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="d-flex align-items-center justify-content-end gap-2">
+                        <p class="m-0 small text-muted pe-1">Get deliveries with App</p>
+                        <a href="#"><img src="theme/img/svg/appstore-btn.svg" alt class="img-fluid mobile-app-link"></a>
+                        <a href="#"><img src="theme/img/svg/googleplay-btn.svg" alt class="img-fluid mobile-app-link"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-light py-4 footer-copyright">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-auto">
+                    <p class="m-0 small">© Copyright 2023 Company Name, All rights reserved.</p>
+                   <a href="privacy_policy.html"> <p class="mt-2 xl">Terms & Privacy Policy</p></a>
+                </div>
+                <div class="col-auto">
+                    <div class="d-flex align-items-center gap-2 social-links">
+                        <p class="m-0 text-muted pe-1">Follow us</p>
+                        <a href="#"><i class="icofont-facebook"></i></a>
+                        <a href="#"><i class="icofont-twitter"></i></a>
+                        <a href="#"><i class="icofont-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="theme/vender/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="theme/vender/jquery/jquery.min.js"></script>
+
+    <script src="theme/vender/slick/slick/slick.min.js"></script>
+
+    <script src="theme/js/quantity.js"></script>
+
+    <script src="theme/js/script.js"></script>
+</body>
+
+
+
+</html>

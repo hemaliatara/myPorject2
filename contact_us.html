@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.png" type="image/png">
+    <title>Radhika - Online Grocery Supermarket </title>
+
+    <link rel="stylesheet" href="theme/vender/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="theme/vender/icofont/icofont.min.css">
+    <link href="theme/cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="theme/vender/slick/slick/slick.css">
+    <link rel="stylesheet" href="theme/vender/slick/slick/slick-theme.css">
+
+    <link rel="stylesheet" href="theme/css/style.css">
+</head>
+
+<body class="bg-light">
+    <div class="homepage-one-header">
+
+        <div class="homepage-nav-one-header">
+            <nav class="navbar navbar-expand-lg bg-white osahan-header px-lg-0 pt-lg-2 pb-lg-0 p-3 shadow-sm">
+                <div class="container px-0 px-xl-3">
+                    <a class="navbar-brand m-0 d-lg-block flex-shrink-0" href="index.html">
+                        <img src="theme/img/my_img/new1.png" alt
+                            class="img-fluid logo-img d-none d-lg-block">
+                        <img src="theme/img/icon.png" alt class="img-fluid logo-img d-lg-none">
+                    </a>
+                    <div
+                        class="border rounded-pill overflow-hidden osahan-top-search w-100 ms-5 me-4 d-none d-lg-flex bg-white">
+                        <a href="#"
+                            class="link-dark p-2 border-end osahan-location text-decoration-none d-flex align-items-center gap-2 text-start flex-shrink-0"
+                            data-bs-toggle="offcanvas" data-bs-target="#location" aria-controls="location">
+                            <i class="lni lni-map-marker text-danger fs-5"></i>
+
+                            <i class="lni lni-chevron-down"></i>
+                        </a>
+                        <div class="input-group bg-white top-search-bar align-items-center">
+                            <input type="text" class="form-control bg-transparent border-0 rounded-0"
+                                placeholder="Search items" aria-label="Search items">
+                            <a href="#" class="btn btn-danger rounded-pill me-1"><i class="icofont-search me-1"></i>
+                                Search</a>
+                        </div>
+                    </div>
+                    <ul class="list-inline d-flex align-items-center ms-auto m-0 flex-shrink-0">
+                        <li class="list-inline-item m-0">
+                            <a href="#"
+                                class="link-dark text-decoration-none d-flex align-items-center gap-2 text-start px-lg-4"
+                                data-bs-target="#login" data-bs-toggle="modal">
+                                <i class="lni lni-user text-dark fs-5 bg-light border rounded-pill p-2"></i>
+                                <div class="lh-sm d-none d-lg-block">
+                                    <small
+                                        class="text-muted text-truncate d-inline-block mb-0 align-bottom small">Hello,
+                                        Sign in</small>
+                                    <h6 class="mb-0 fw-normal">My Account</h6>
+                                </div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+            <nav class="navbar navbar-expand-lg navbar-light navbar-default bg-white osahan-second-nav py-0 shadow-sm">
+                <div class="container px-0 px-xl-3">
+                    <div class="dropdown me-3 d-none d-lg-block">
+                        <button class="btn btn-danger d-flex align-items-center rounded-pill" type="button"
+                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="lni lni-grid-alt d-flex me-1"></i> All Departments
+                        </button>
+
+                    </div>
+                    <div class="offcanvas offcanvas-start p-4 p-lg-0" id="navbar-default">
+                        <div class="d-flex justify-content-between align-items-center mb-2 d-block d-lg-none">
+                            <a class="navbar-brand m-0 d-lg-block flex-shrink-0" href="index.html">
+                                <img src="theme/img/logo.png" alt class="img-fluid logo-img d-none d-lg-block">
+                                <img src="theme/img/icon.png" alt class="img-fluid logo-img d-lg-none">
+                            </a>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="d-block d-lg-none">
+                            <form action="#">
+                                <div
+                                    class="input-group bg-white top-search-bar border rounded-pill align-items-center py-1 ps-2">
+                                    <input type="text" class="form-control bg-transparent border-0 rounded-0"
+                                        placeholder="Search items" aria-label="Search items">
+                                    <a href="#" class="btn btn-danger rounded-pill me-1"><i
+                                            class="icofont-search me-1"></i> Search</a>
+                                </div>
+                            </form>
+
+                        </div>
+                        <div class="d-block d-lg-none mb-3">
+                            <a class="btn btn-danger d-flex align-items-center rounded-pill w-100"
+                                data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                <i class="lni lni-grid-alt d-flex me-1"></i> All Departments
+                            </a>
+
+                        </div>
+                        <div class="d-none d-lg-block">
+                            <ul class="navbar-nav align-items-center ">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Home
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="index.html">Home 1</a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Shop
+                                    </a>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Stores
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="store-list.html">Store List</a></li>
+                                        <li><a class="dropdown-item" href="store-grid.html">Store Grid</a></li>
+                                        <li><a class="dropdown-item" href="store-single.html">Store Single</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown dropdown-fullwidth">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Mega menu
+                                    </a>
+                                    <div class=" dropdown-menu py-0">
+                                        <div class="row p-2 p-lg-4">
+                                            <div class="col-lg-3 col-6 mb-4 mb-lg-0">
+                                                <h6 class="text-dark ps-3">Dairy, Bread & Eggs</h6>
+                                                <a class="dropdown-item" href="listing.html">Butter</a>
+                                                <a class="dropdown-item" href="listing.html">Milk Drinks</a>
+                                                <a class="dropdown-item" href="listing.html">Curd & Yogurt</a>
+                                                <a class="dropdown-item" href="listing.html">Eggs</a>
+                                                <a class="dropdown-item" href="listing.html">Buns & Bakery</a>
+                                                <a class="dropdown-item" href="listing.html">Cheese</a>
+                                                <a class="dropdown-item" href="listing.html">Condensed Milk</a>
+                                                <a class="dropdown-item" href="listing.html">Dairy Products</a>
+                                            </div>
+                                            <div class="col-lg-3 col-6 mb-4 mb-lg-0">
+                                                <h6 class="text-dark ps-3">Breakfast & Instant Food</h6>
+                                                <a class="dropdown-item" href="listing.html">Breakfast Cereal</a>
+                                                <a class="dropdown-item" href="listing.html"> Noodles, Pasta & Soup</a>
+                                                <a class="dropdown-item" href="listing.html">Frozen Veg Snacks</a>
+                                                <a class="dropdown-item" href="listing.html"> Frozen Non-Veg Snacks</a>
+                                                <a class="dropdown-item" href="listing.html"> Vermicelli</a>
+                                                <a class="dropdown-item" href="listing.html"> Instant Mixes</a>
+                                                <a class="dropdown-item" href="listing.html"> Batter</a>
+                                                <a class="dropdown-item" href="listing.html"> Fruit and Juices</a>
+                                            </div>
+                                            <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                                                <h6 class="text-dark ps-3">Cold Drinks & Juices</h6>
+                                                <a class="dropdown-item" href="listing.html">Soft Drinks</a>
+                                                <a class="dropdown-item" href="listing.html">Fruit Juices</a>
+                                                <a class="dropdown-item" href="listing.html">Coldpress</a>
+                                                <a class="dropdown-item" href="listing.html">Water & Ice Cubes</a>
+                                                <a class="dropdown-item" href="listing.html">Soda & Mixers</a>
+                                                <a class="dropdown-item" href="listing.html">Health Drinks</a>
+                                                <a class="dropdown-item" href="listing.html">Herbal Drinks</a>
+                                                <a class="dropdown-item" href="listing.html">Milk Drinks</a>
+                                            </div>
+                                            <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                                                <div class="grocery-banner-1 rounded-4 py-4 ps-4 pe-5 h-100">
+                                                    <h3 class="fw-bold mb-2 pe-5 me-4 text-danger">Dont miss this offer
+                                                        today. </h3>
+                                                    <p class="lh-base mb-5">Get Upto <br><span
+                                                            class="fw-bold">30%</span> Off</p>
+                                                    <a href="listing.html"
+                                                        class="btn btn-danger fs-6 fw-bold rounded-pill mt-3">Shop Now<i
+                                                            class="bi bi-arrow-right ms-1"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                        <li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
+                                        <li><a class="dropdown-item" href="blog-category.html">Blog Category</a></li>
+                                        <li><a class="dropdown-item" href="about.html">About us</a></li>
+                                        <li><a class="dropdown-item" href="404error.html">404 Error</a></li>
+                                        <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                                        <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Account
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="signin.html">Sign in</a></li>
+                                        <li><a class="dropdown-item" href="signup.html">Signup</a></li>
+                                        <li><a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
+                                        </li>
+                                        <li class="dropdown-submenu dropend">
+                                            <a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">
+                                                My Account
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="account-orders.html">Orders</a></li>
+                                                <li><a class="dropdown-item" href="account-settings.html">Settings</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="account-address.html">Address</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="my-wallet.html">My Wallet</a></li>
+                                                <li><a class="dropdown-item"
+                                                        href="account-notification.html">Notification</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="my-account.html">My Account Tabs</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="d-block d-lg-none h-100" data-simplebar>
+                            <ul class="navbar-nav ">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Home
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="index.html">Home 1</a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Shop
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="listing.html">Shop Grid - Filter</a></li>
+                                        <li><a class="dropdown-item" href="shop-grid-3-column.html">Shop Grid - 3
+                                                column</a></li>
+                                        <li><a class="dropdown-item" href="shop-list.html">Shop List - Filter</a></li>
+                                        <li><a class="dropdown-item" href="shop-fullwidth.html">Shop Wide</a></li>
+                                        <li><a class="dropdown-item" href="product-detail.html">Shop Single</a></li>
+                                        <li><a class="dropdown-item" href="shop-wishlist.html">Shop Wishlist</a></li>
+                                        <li><a class="dropdown-item" href="shop-cart.html">Shop Cart</a></li>
+                                        <li><a class="dropdown-item" href="checkout.html">Shop Checkout</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Stores
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="store-list.html">Store List</a></li>
+                                        <li><a class="dropdown-item" href="store-grid.html">Store Grid</a></li>
+                                        <li><a class="dropdown-item" href="store-single.html">Store Single</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Mega Menu
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-submenu ">
+                                            <a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">
+                                                Dairy, Bread & Eggs
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="listing.html">Milk Drinks</a></li>
+                                                <li><a class="dropdown-item" href="listing.html">Curd & Yogurt</a></li>
+                                                <li> <a class="dropdown-item" href="listing.html">Eggs</a></li>
+                                                <li><a class="dropdown-item" href="listing.html">Buns & Bakery</a></li>
+                                                <li><a class="dropdown-item" href="listing.html">Cheese</a></li>
+                                                <li> <a class="dropdown-item" href="listing.html">Condensed Milk</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="listing.html">Dairy Products</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown-submenu ">
+                                            <a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">
+                                                Vegetables & Fruits
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="listing.html">Vegetables</a></li>
+                                                <li><a class="dropdown-item" href="listing.html">Fruits</a></li>
+                                                <li> <a class="dropdown-item" href="listing.html">Exotics & Premium</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="listing.html">Fresh Sprouts</a></li>
+                                                <li><a class="dropdown-item" href="listing.html">Frozen Veg</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown-submenu ">
+                                            <a class="dropdown-item dropdown-list-group-item dropdown-toggle" href="#">
+                                                Cold Drinks & Juices
+                                            </a>
+
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Pages
+                                    </a>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Account
+                                    </a>
+
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="account-orders.html">Orders</a></li>
+                                        <li><a class="dropdown-item" href="account-settings.html">Settings</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="account-address.html">Address</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="my-wallet.html">My Wallet</a></li>
+                                        <li><a class="dropdown-item" href="account-notification.html">Notification</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="my-account.html">My Account Tabs</a></li>
+                            </ul>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="hero-slider-main">
+            <div class="hero-slider mb-0">
+                <div class="hero-slider-1">
+                    <div class="container">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <section class="pb-4">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-6 col-12">
+
+                </div>
+                <div class="col-lg-6 col-12">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container py-5">
+
+
+    </div>
+    <section style="min-height: 500px;">
+
+        <section class="pt-5 bg-success">
+            <div class="container py-5 px-5 text-center">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h1 class="text-white display-5 mb-2 fw-bold">Contact us</h1>
+                        <p class="lead text-white-50 m-0">Have questions? We're here to help!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="svg-border-rounded text-light">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none"
+                    fill="currentColor">
+                    <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path>
+                </svg>
+            </div>
+        </section>
+        <div class="py-5 text-center">
+            <div class="container">
+                <div class="row gx-5 row-cols-2 row-cols-lg-4 py-5">
+                    <div class="col">
+                        <div class="feature bg-warning bg-gradient text-white rounded-pill mb-3"><i
+                                class="icofont-chat"></i></div>
+                        <div class="h5 mb-2 fw-bold text-black">Chat with us</div>
+                        <p class="text-muted mb-0">Chat live with one of our support specialists.</p>
+                    </div>
+                    <div class="col">
+                        <div class="feature bg-warning bg-gradient text-white rounded-pill mb-3"><i
+                                class="icofont-people"></i></div>
+                        <div class="h5 fw-bold text-black">Ask the community</div>
+                        <p class="text-muted mb-0">Explore our community forums and communicate with other users.</p>
+                    </div>
+                    <div class="col">
+                        <div class="feature bg-warning bg-gradient text-white rounded-pill mb-3"><i
+                                class="icofont-question-circle"></i></div>
+                        <div class="h5 fw-bold text-black">Support center</div>
+                        <p class="text-muted mb-0">Browse FAQ's and support articles to find solutions.</p>
+                    </div>
+                    <div class="col">
+                        <div class="feature bg-warning bg-gradient text-white rounded-pill mb-3"><i
+                                class="icofont-telephone"></i></div>
+                        <div class="h5 fw-bold text-black">Call us</div>
+                        <p class="text-muted mb-0">Call us during normal business hours at (+91) 8745789654.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="pe-lg-5">
+                            <div class="pe-lg-5">
+                                <div class="py-5">
+                                    <div class="display-5 text-dark fw-bold mb-2">Get In Touch.</div>
+                                    <p class="pt-1 pb-3 lead">Fill in the form to the right to get in touch with someone
+                                        on our team, and we will reach out shortly.</p>
+                                    <form>
+                                        <div class="d-flex gap-3 justify-content-between">
+                                            <div class="w-100">
+                                                <input type="text" class="form-control" placeholder="Enter Your E-Mail">
+                                            </div>
+                                            <div class="w-100">
+                                                <input type="text" class="form-control" placeholder="Mobile No">
+                                            </div>
+                                        </div>
+                                        <div class="my-3">
+                                            <textarea class="form-control" placeholder="Message" rows="6"></textarea>
+                                        </div>
+                                        <button type="button"
+                                            class="btn btn-success btn-lg px-4 text-uppercase">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30703620.672472216!2d64.4139098985941!3d20.050418843029934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1642570609485!5m2!1sen!2sin"
+                            class="border-0 w-100 h-700" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="footer py-5 shadow-sm">
+            <div class="container">
+                <div class="row">
+                    <h5 class="mb-4 fw-bold text-dark">Areas we deliver to</h5>
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <ul class="list-unstyled d-grid gap-2 mb-0">
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Ahmedabad</a></li>
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Surat</a>
+                            </li>
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Vadodara</a></li>
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Rajkot</a></li>
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Gandhinagar</a></li>
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Bhavnagar</a>
+                            </li>
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Jamnagar</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <ul class="list-unstyled d-grid gap-2 mb-0">
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Junagadh</a></li>
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Bharuch</a></li>
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Anand</a></li>
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Bhuj</a></li>
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Palanpur</a></li>
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Godhra</a></li>
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Morbi</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <ul class="list-unstyled d-grid gap-2 mb-0">
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Vapi</a></li>
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Dahod</a></li>
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Navsari</a></li>
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Mehsana</a></li>
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Amreli</a>
+                            </li>
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Botad</a></li>
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Gandhidham</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <ul class="list-unstyled d-grid gap-2 mb-0">
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Navsari</a></li>
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Mehsana</a></li>
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Malviya Nagar</a></li>
+                            <li><a href="listing.html" class="text-decoration-none text-muted">RK Puram</a></li>
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Sarai Kala khan</a></li>
+                            <li><a href="listing.html" class="text-decoration-none text-muted">Vasant Vihar</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+
+
+
+    <footer class="bg-light py-5">
+
+
+        <div class="bg-white py-4 footer-app">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-auto">
+                        <div class="d-flex align-items-center gap-1">
+                            <p class="m-0 small text-muted pe-2">Payment Partners</p>
+                            <a href="#"><img src="theme/img/svg/p5.svg" alt class="img-fluid footer-payment"></a>
+                            <a href="#"><img src="theme/img/svg/p8.svg" alt class="img-fluid footer-payment"></a>
+                            <a href="#"><img src="theme/img/svg/p4.svg" alt class="img-fluid footer-payment"></a>
+                            <a href="#"><img src="theme/img/svg/p3.svg" alt class="img-fluid footer-payment"></a>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="d-flex align-items-center justify-content-end gap-2">
+                            <p class="m-0 small text-muted pe-1">Get deliveries with App</p>
+                            <a href="#"><img src="theme/img/svg/appstore-btn.svg" alt
+                                    class="img-fluid mobile-app-link"></a>
+                            <a href="#"><img src="theme/img/svg/googleplay-btn.svg" alt
+                                    class="img-fluid mobile-app-link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-light py-4 footer-copyright">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-auto">
+                        <p class="m-0 small">© Copyright 2023 Company Name, All rights reserved.</p>
+                        <a href="privacy_policy.html">
+                            <p class="mt-2 xl">Terms & Privacy Policy</p>
+                        </a>
+                    </div>
+                    <div class="col-auto">
+                        <div class="d-flex align-items-center gap-2 social-links">
+                            <p class="m-0 text-muted pe-1">Follow us</p>
+                            <a href="#"><i class="icofont-facebook"></i></a>
+                            <a href="#"><i class="icofont-twitter"></i></a>
+                            <a href="#"><i class="icofont-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="theme/vender/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="theme/vender/jquery/jquery.min.js"></script>
+
+    <script src="theme/vender/slick/slick/slick.min.js"></script>
+
+    <script src="theme/js/quantity.js"></script>
+
+    <script src="theme/js/script.js"></script>
+</body>
+
+
+
+</html>
